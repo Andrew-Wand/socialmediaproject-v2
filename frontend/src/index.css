@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (min-width: 1200px) {
+    body:has(.requires-no-scroll) {
+        overflow: hidden;
+      }
+
+
+
+}
+
+body:has(.requires-no-scroll) {
+    overflow: hidden;
+  }
+
+
+
+
+  @layer base {
+    html {
+      font-family: "Lato", system-ui, sans-serif;
+    }
+  }
+
+  
+  .MuiPagination-root {
+    button {
+      color: #f2f2f2 !important;
+      border-color: gray;
+      line-height: 0px;
+   }
+  }
+  
+
+/* Follow list desktop animations */
+
+.hoverEffect:hover {
+  transform: translateX(.5rem);
+}
+
+
+
+
+
+  
+
+  
